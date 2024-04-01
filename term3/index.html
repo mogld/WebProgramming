@@ -1,0 +1,117 @@
+<html><head>
+  <title>Jinsol's Homepage</title>
+  <meta charset="utf-8">
+<script>
+
+function over(obj) {
+
+obj.style.background="black";
+obj.style.color="white"
+}
+
+function out(obj) {
+
+obj.style.background=" white";
+obj.style.color="black"
+
+}
+
+function theDate()
+                        { 
+			today = new Date();
+			document.write(today.getFullYear(),"년 ", today.getMonth()+1,"월 ", today.getDate(),"일  ");
+			document.write(today.getHours(),"시 ", today.getMinutes()+1,"분 ", today.getSeconds(),"초" );
+		}
+
+
+function LinkColor()
+                        {
+    		     i++;
+		     if (i==1) C = Color1;
+ 		     if (i==2) C = Color2;
+           
+		      BannerLink.style.color=C;
+		      if (i > 1) i = 0;
+		      setTimeout("LinkColor()", rate);    
+		}
+</script>
+
+  <style type="text/css">
+body {height: 100%;}
+
+  .header .topic {
+  display: inline-block;
+  height: 100%;
+  
+  
+  vertical-align: middle;
+}
+
+.header { position: relative;
+height: 100%;
+background-image: url("coding.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+  #bar {
+  padding: 10px 20px;
+  position: absolute;
+  top: 0; }
+
+  #logo {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold; }
+
+ .info {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.info h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: 맑은고딕;
+}
+
+.info h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: HY견고딕;
+}
+
+.learn-more {
+  color: white;
+  text-decoration: none;
+  font-size:18px;
+  border: 2px solid white;
+  padding: 8px 20px;
+  font-family: HY견고딕;
+}
+
+</style>
+</head>
+<body>
+  <div class="header">
+    <div id="bar">
+      <a href="fun.html" id="logo">BIGDATA</a>
+    </div>
+    <div class="topic"></div><div class="info">
+      <h1>미래를 예측하는 <b>BIGDATA</b></h1>
+      <h2>빅데이터는 미래 경쟁력을 좌우하는 핵심 자원</h2>
+      <a class="learn-more" href="menu.html" onmouseover="over(this)" onmouseout="out(this)" style="background: white; color: black;">Learn More</a><br><br>
+	<br><font face="HY견고딕" color="lightgray" size="5"><script language="JavaScript">
+theDate();
+</script></font>
+    </div>
+  </div>
+
+</body></html>

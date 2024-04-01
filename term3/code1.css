@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+
+body { background-color: darkslategray; }
+
+.deco {padding: 30px; text-align: center;}
+
+h1 { margin: 40%; border-style: double; border-width: thick; border-color: white; text-align: center; font-size: 30px; color: moccasin; margin-top: 80px; margin-bottom: 30px; font-face: 한컴 윤체M;}
+
+h2 { text-decoration: underline; text-align: center; font-size: 15px; color: moccasin; margin-top: 30px; margin-bottom: 30px; font-face: 한컴 윤체M; }
+
+.menu { background-color: moccasin; width: 303px; margin-left: auto; margin-right: auto; border-color: lightsteelblue; border-style: double; margin-bottom: 40px; }
+
+.menu h3 { color: darkslategray; font-size: 23px; font-family: 한컴 윤체M; margin-top: 0; margin-bottom: 20px; letter-spacing: 10px; }
+
+.menu p { color: darkslategray; font-size: 15px; font-family: 한컴 윤체M; margin-top: 0; margin-bottom: 25px; }
+
+.menu a { text-decoration: none; padding: 5px; margin: 20%; border-color: darkslategray; border-style: inset; color: #006666; font-size: 20px; font-family: 한컴 윤체M; font-weight: bold; }

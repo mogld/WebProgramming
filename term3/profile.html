@@ -1,0 +1,235 @@
+<html><head>
+	<title>profile</title>
+ <meta charset="utf-8">
+<script>
+
+function over(obj) {
+
+obj.style.background="lightsteelblue";
+
+}
+
+function out(obj) {
+
+obj.style.background="white";
+
+}
+
+
+function show() {
+
+var objArray = document.getElementsByTagName("span");
+
+for(var i=0; i<objArray.length; i++) {
+
+var obj = objArray[i];
+
+var style = window.getComputedStyle(obj);
+
+var v = style.getPropertyValue("visibility");
+
+if(v == "hidden")
+
+obj.style.visibility = "visible";
+
+else
+
+obj.style.visibility = "hidden";
+
+}
+
+}
+
+
+
+</script>
+
+	<style type="text/css">
+	
+body { background-color: darkslategray;  font-face: 한컴 윤체M;  }
+
+#home, #login, #profile, #bigdata {  position: relative; width: 100%; height: 100px; padding: 10px 10px 10px 10px; }
+
+a { color: dimgray; font-weight: bold;}
+
+.button {  margin: 20px; width: 100px; height: 30px; display: inline-block; border: 0px ; color: dimgray; background-color: #fff; line-height: 25px; font-size: 20px; }
+
+.title { position: absolute; color: white; right: 25%; margin: 0%; top: 260px; font-size: 40px; font-family: hy견고딕; }
+
+header { width: 100%; height: 70px; background-color: darkslategray; margin: 0; text-align: center;  }
+
+#box { width: 50%; margin: 0 auto; border: 2px solid; border-color:white; margin-bottom: 10px; }
+
+nav { height: 60px; background-color: darkslategray; color: white;  }
+
+#home, #login, #profile, #bigdata {  position: relative; width: 100%; height: 100px; padding: 10px 10px 10px 10px; }
+
+.code {
+    background: url("coding.jpg") center;
+    background-size: cover;
+
+   width: 100%;
+    height: 400px;
+}
+
+.write{
+    width: 100%;
+    height: 100%;
+}
+
+.menu2{
+    margin: 0px 100px auto auto;
+    padding-top: 20px;
+    paddong-right: 30px;
+    background-color: darkslategray;
+    width: 65%;
+   
+}
+
+.menu{
+    margin: 0 auto ;
+    padding-top: 20px;
+    
+    background-color: darkslategray;
+    width: 50%;
+   
+}
+
+.text1{ font-size: 25px; font-weight: bold;
+	color: white;
+    margin: 0% 5%;
+    padding: 10px 0px;
+    line-height: 1.6;
+}
+
+.text2{ font-size: 27px; font-weight: bold;
+	color: moccasin; font-family: 맑은 고딕;
+    margin: 0% 5%;
+    padding: 10px 0px;
+    line-height: 1.6;
+}
+
+.text3 {  color: white;  padding: 1px 0px;
+    line-height: 1.6;  }
+.text4 { color: white; font-family: hy견고딕; }
+b { color: moccasin; }
+.line { width: 150px; border-bottom: dotted 10px white; margin: 20px auto 20px auto; }
+
+.range {
+    width: 100%;
+}
+
+.range2 {width: 200px;  }
+
+.range3 {width: 600px; }
+
+span {
+
+visibility : hidden;
+
+color : moccasin;
+
+}
+
+</style>
+
+</head><body>
+	<div id="box">
+		<header>
+			<nav>
+			
+			<p class="button" onmouseover="over(this)" onmouseout="out(this)"><a href="index.html">HOME </a></p>
+			<p class="button" onmouseover="over(this)" onmouseout="out(this)"><a href="login.html">LOGIN </a></p>
+			<p class="button" onmouseover="over(this)" onmouseout="out(this)"><a href="profile.html">PROFILE</a></p>
+			<p class="button" onmouseover="over(this)" onmouseout="out(this)"><a href="bigdata.html">BIGDATA </a></p>
+
+			</nav>
+		</header>
+	</div>
+
+	<div class="code">
+		<div class="write">
+			 <p class="title"> P R O F I L E </p>
+		</div>
+	</div>
+	
+
+	
+            <div class="menu" style="text-align: center;">
+            <p class="text1 "><i>ABOUT</i></p>
+            <p class="text2  " style="margin: 0px 10%;"><b>이 진 솔</b></p>
+	</div>
+	<div class="line"></div>
+            
+   
+        <div class="menu" align="center">
+       
+                
+                        <img class="range" src="my.jpg" style="width: 200px;"> <br><br>
+	<audio src="music.mp3" autoplay="" controls="" width="5" height="3"></audio>
+		<button onclick="show()">OPEN</button>
+
+	
+</div>
+<br>
+<div class="line"></div>
+
+ <div class="menu2">
+                  
+    	 <table class="range">
+	<tbody><tr>	
+	<td>
+                <p class="text3">BIRTH<b> <span>2001.01.26</span></b></p>
+		 <p class="text3">AGE<b><span> 21</span></b></p>
+		 <p class="text3">MAJOR<b> <span>ICT융합공학부 소프트웨어전공</span></b></p>
+		 <p class="text3">STUDENT NUMBER<b> <span>202021008</span></b></p>
+		 <p class="text3">CONTACT<b> <span>purnsol1001@naver.com</span></b></p>
+		 <p class="text3">ADDRESS<b> <span>대구광역시 달서구 상인동</span></b></p>
+		 <p class="text3">BLOOD TYPE<b><span> B</span></b></p>
+		 <p class="text3">FAMILY<b> <span>아버지, 어머니, 오빠, 나</span></b></p>
+		 
+                        
+                    </td>
+                    <td class="range" style="text-align: center;">
+                        <img class="range2" src="sw.png">
+                    </td>
+                </tr>
+            </tbody></table>
+            
+        </div>
+	<div class="line"></div>
+
+  <div class="menu">
+                  
+    	 <table class="range3">
+
+                <tbody><tr>
+		 
+                    <td class="range" style="text-align: center;">
+                        <img align="left" class="range2" src="travel.png">
+                    </td>
+                
+
+                    <td>
+
+	<p class="text4"> EDUCATION</p>
+		 <p class="text3"><b><span> 월서초등학교 2014년 졸업</span></b></p>
+		 <p class="text3"><b> <span>월서중학교 2017년 졸업</span></b></p>
+		 <p class="text3"><b> <span>대구 경일여자고등학교 2020년 졸업</span></b></p>
+		 <p class="text3"><b> <span>건국대학교 2020년 입학</span></b></p>
+		 
+                        
+                        
+                  	</td> 
+	</tr>
+            </tbody></table>
+            
+        </div>
+	<div class="line"></div>      
+                
+               
+
+
+
+
+</body></html>

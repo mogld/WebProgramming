@@ -1,0 +1,298 @@
+<html><head>
+	<title>bigdata 전망</title>
+<script language="javascript" '="">
+function imageview(value)
+{
+    switch(value)
+    {
+        case 'FUTURE1':
+            var tags="<img src='future1.png'"+"width='400'"+"height='450'"+"onmouseover='sizeup(event,1,this)'"+"onmouseout='sizeup(event,2,this)'>"
+            document.getElementById("imgV").innerHTML=tags;
+            break;
+        case 'FUTURE2':
+            var tags="<img src='future2.png'"+"width='400'"+"height='700'"+"onmouseover='sizeup(event,1,this)'"+"onmouseout='sizeup(event,2,this)'>"
+            document.getElementById("imgV").innerHTML=tags;
+            break;
+        case 'FUTURE3':
+            var tags="<img src='future3.png'"+"width='300'"+"height='300'"+"onmouseover='sizeup(event,1,this)'"+"onmouseout='sizeup(event,2,this)'>"
+            document.getElementById("imgV").innerHTML=tags;
+            break;
+    }
+}
+
+function sizeup(e,type,obj)
+{
+    if(window.event) e = window.event;
+    var width = Number(obj.width);
+    var height = Number(obj.height);
+    if(type==1)
+    {
+        obj.width   = (width * 2);
+        obj.height  = (height * 2);
+    }
+    else if(type==2)
+    {
+        obj.width   = (width / 2);
+        obj.height  = (height / 2);
+    }
+}
+
+
+</script>
+	<style type="text/css">
+	
+body { background-color: darkslategray;  font-face: 한컴 윤체M;  }
+
+#home, #login, #profile, #bigdata {  position: relative; width: 100%; height: 100px; padding: 10px 10px 10px 10px; }
+
+a { color: dimgray; font-weight: bold;}
+
+.button {  margin: 20px; width: 100px; height: 30px; display: inline-block; border: 0px ; color: dimgray; background-color: #fff; line-height: 25px; font-size: 20px; }
+
+.title { position: absolute; color: white; right: 25%; margin: 0%; top: 240px; font-size: 35px; font-family: hy견고딕; }
+
+.title2 { position: absolute; color: moccasin; right: 25%; margin: 20px; top: 270px; font-size: 35px; font-family: hy견고딕; }
+
+header { width: 100%; height: 70px; background-color: darkslategray; margin: 0; text-align: center;  }
+
+#box { width: 50%; margin: 0 auto; border: 2px solid; border-color:white; margin-bottom: 10px; }
+
+nav { height: 60px; background-color: darkslategray; color: white;  }
+
+#home, #login, #profile, #bigdata {  position: relative; width: 100%; height: 100px; padding: 10px 10px 10px 10px; }
+
+.imge {  margin-left: 370px; border: 10px double lightsteelblue; width: 520px; }
+
+.code {
+    background: url("coding.jpg") center;
+    background-size: cover;
+
+   width: 100%;
+    height: 400px;
+}
+
+.write{
+    width: 100%;
+    height: 100%;
+}
+
+.menu2{
+    margin: 0px 100px auto auto;
+    padding-top: 20px;
+    paddong-right: 30px;
+    background-color: darkslategray;
+    width: 65%;
+   
+}
+
+.menu{
+    margin: 0 auto ;
+    padding-top: 20px;
+    
+    background-color: darkslategray;
+    width: 50%;
+   
+}
+
+.text1{ font-size: 25px; font-weight: bold;
+	color: moccasin;
+    margin: 0% 5%;
+    padding: 10px 0px;
+    line-height: 1.6;
+}
+
+.text2{ font-size: 22px; font-weight: bold;
+	color: moccasin; font-family: 맑은 고딕;
+    margin: 0% 5%;
+    padding: 10px 0px;
+    line-height: 1.6;
+}
+
+.text3 {  color: white;  padding: 2px 0px;
+    text-size: 15px; font-family: 맑은 고딕; }
+
+
+.text31 {  color: lightsteelblue;  padding: 2px 0px;
+    list-style-type: disk; font-size: 17px; font-family: HY견고딕;}
+
+.text4 { color: white; font-family: hy견고딕; }
+b { color: moccasin; }
+.line { width: 150px; border-bottom: dotted 10px white; margin: 20px auto 20px auto; }
+
+.range {
+    width: 95%;
+}
+
+.range2 {width: 230px;  margin: 8%; border: 4px double lightsteelblue;}
+
+.range3 {width: 600px; }
+
+.txt1 {  margin: 0% 3%;
+    padding: 10px 0px; color: black; text-align: left; font-family: hy견고딕; font-size: 17px;}
+
+
+.txt2 { color: black; text-align: center;  font-family: hy견고딕; font-size: 17px;}
+
+
+.txt3 { color: black; text-align: right; font-family: hy견고딕; font-size: 17px;}
+
+.menus  { background-color: moccasin; width: 150px; margin-left: 20px; margin-right: 20px; border-color: lightsteelblue; border-style: double; margin-bottom: 10px; }
+
+.menu0 {
+    margin: 0px 10px auto auto;
+    padding-top: 10px ;
+    padding-right: 50px; 
+    background-color: darkslategray;
+    width: 90%;
+   
+}
+
+td {width: 90%; }
+b {color: red;}
+
+.range5 {width: 60%; }
+
+
+
+* { box-sizing: border-box; }	
+
+.deco {padding: 30px; text-align: center;}
+
+.menus p { text-align: center; color:#006666; ; font-size: 23px; font-family: HY견고딕; margin-top: 0; margin-bottom: 20px; letter-spacing: 5px; }
+.menus h3 { text-align: center; color: darkslategray; font-size: 15px; font-family: 한컴 윤체M; margin-top: 0; margin-bottom: 8px; }
+
+
+.menus a { text-decoration: none; padding: 5px; margin: 20%; background-color: white; border-style: outset; color: #006666; font-size: 15px; font-family: 한컴 윤체M; font-weight: bold; }
+
+
+.form { border-style: double; border-color: dimgray; border-width: 4px; height: 350px; width: 800px; background-color: lightsteelblue; margin-left: auto; margin-right: auto; margin-top: 20px; padding:50px; }
+</style>
+
+</head><body>
+	<div id="box">
+		<header>
+			<nav>
+			
+			<p class="button"><a href="index.html">HOME </a></p>
+			<p class="button"><a href="login.html">LOGIN </a></p>
+			<p class="button"><a href="profile.html">PROFILE</a></p>
+			<p class="button"><a href="bigdata.html">BIGDATA </a></p>
+
+			</nav>
+		</header>
+	</div>
+
+	<div class="code">
+		<div class="write">
+			 <p class="title"> B I G D A T A </p>
+			<p class="title2"> 전 망 </p>
+		</div>
+	</div>
+	
+
+	
+            <div class="menu" style="text-align: center;">
+            <p class="text1 ">빅데이터 전망</p>
+            
+	</div>
+	<div class="line"></div>
+
+
+
+<div class="imge">
+	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" ,="" value="FUTURE1" onclick="imageview(value)">
+<input type="button" ,="" value="FUTURE2" onclick="imageview(value)">
+<input type="button" ,="" value="FUTURE3" onclick="imageview(value)"><br>
+<p id="imgV" align="center"></p>
+
+
+
+
+
+</div>
+
+<div class="line"></div>
+            
+   
+</div>
+
+
+
+
+
+
+
+<div class="menu0">
+                  
+    	 <table class="range5" align="center">
+	<tbody><tr>
+
+	<td class="range5" style="text-align: center;">
+             
+ <div class="menus">
+	<div class="deco">
+	<h3> 빅데이터 </h3>
+	
+	<a href="bigdata1.html">정의</a>
+
+	</div>
+	</div>
+	</td>	
+	
+	<td class="range5" style="text-align: center;">
+              <div class="menus">
+		
+
+	<div class="deco">
+	<h3> 빅데이터 </h3>
+	
+	<a href="bigdata2.html">특성</a>
+
+	</div>
+	</div>
+	</td>
+<td class="range5" style="text-align: center;">
+ <div class="menus">
+
+		
+	<div class="deco">
+	<h3> 빅데이터 </h3>
+	
+	<a href="bigdata3.html">기술</a>
+
+	</div>
+	</div>
+</td>
+<td class="range5" style="text-align: center;">
+ <div class="menus">
+		
+
+	<div class="deco">
+	<h3> 빅데이터 </h3>
+	
+	<a href="bigdata4.html">전망</a>
+
+	</div>
+	</div>
+</td>
+                </tr>
+            </tbody></table>
+            
+        </div>
+
+<div class="line"></div>
+                
+               
+
+
+
+    
+
+
+                
+               
+
+
+
+</body></html>
